@@ -1,6 +1,7 @@
 body{
   background-color:rgb(7, 199, 23) ;
-
+  border: 10px solid rgb(128, 0, 0) 
+ 
 }
 .title{
   color:red;
