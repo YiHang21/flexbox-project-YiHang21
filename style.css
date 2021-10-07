@@ -19,4 +19,11 @@ img{
   margin-bottom: 60px;
   box-shadow: 10px 10px 20px red;
   margin: 20px;
+ border-radius: 50%;
+}
+img {
+  transition: transform 1s ease-in-out;
+}
+img:hover {
+  transform: rotate(360deg);
 }
