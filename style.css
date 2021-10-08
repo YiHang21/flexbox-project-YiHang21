@@ -1,10 +1,10 @@
 body{
-  background-color:rgb(7, 199, 23) ;
-  border: 10px solid rgb(128, 0, 0) 
+  background-color:rgb(255, 255, 255) ;
+  border: 10px solid rgb(68, 44, 55) 
  
 }
 .title{
-  color:red;
+  color:rgb(24, 161, 240);
   font-family: 'PT Sans', sans-serif;
   text-align:center;
   font-size: 7em;
@@ -17,7 +17,7 @@ body{
 img{
   width: 30%;
   margin-bottom: 60px;
-  box-shadow: 10px 10px 20px red;
+  box-shadow: 10px 10px 20px rgb(250, 247, 247);
   margin: 20px;
  border-radius: 50%;
 }
@@ -26,4 +26,27 @@ img {
 }
 img:hover {
   transform: rotate(360deg);
+}
+p {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+.slidein {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: 3;
+  animation-direction: alternate;
+}
+
+@keyframes slidein {
+  from {
+    margin-left:100%;
+    width:300%
+  }
+
+  to {
+    margin-left:0%;
+    width:100%;
+  }
 }
