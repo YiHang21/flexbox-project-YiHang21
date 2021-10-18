@@ -24,10 +24,10 @@ img{
 img {
   transition: transform 1s ease-in-out;
 }
-.ball1:hover {
+img:hover {
   transform: rotate(360deg);
 }
-.ball1: {
+p {
   animation-duration: 3s;
   animation-name: slidein;
 }
@@ -38,6 +38,7 @@ img {
   animation-iteration-count: 3;
   animation-direction: alternate;
 }
+
 @keyframes slidein {
   from {
     margin-left:100%;
@@ -48,6 +49,7 @@ img {
     margin-left:0%;
     width:100%;
   }
+<<<<<<< HEAD
 }
 .ball2:hover{
     opacity: 1;
@@ -164,4 +166,6 @@ width:auto;
   opacity: 0;
   transition: .5s ease;
   background-color: #008CBA;
+=======
+>>>>>>> parent of 22ed6b1 (hover effects)
 }
