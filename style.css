@@ -13,19 +13,30 @@ body{
   color:rgb(24, 161, 240);
   font-family: 'PT Sans', sans-serif;
   text-align:center;
-  font-size: 7em;
+  font-size: 7rem;
 }
 .gallery{
   display: flex;
   flex-wrap: wrap; 
   justify-content: space-between;
 }
+
+.box {  width: 30%;
+  margin-bottom: 10rem;
+  
+  
+  margin: 1rem;
+text-align: center;
+}
 img{
-  width: 30%;
-  margin-bottom: 60px;
-  box-shadow: 10px 10px 20px rgb(250, 247, 247);
-  margin: 20px;
- border-radius: 50%;
+  width: 20rem;
+  border-radius: 50%;
+ box-shadow: 10px 10px 20px rgb(34, 33, 33);
+}
+.# {
+  font-size: 3rem;
+  
+
 }
 .ball1 {
   transition: transform 1s ease-in-out;
